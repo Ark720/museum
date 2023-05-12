@@ -52,6 +52,22 @@
     background: url("../image/sixth-works.png") 0 0 no-repeat;
     background-size: 100% 100%;
 }
+.seventh-bg{
+    background: url("../image/seventh-works.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.eighth-bg{
+    background: url("../image/eighth-works.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.ninth-bg{
+    background: url("../image/ninth-works.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.tenth-bg{
+    background: url("../image/tenth-works.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
 
 .works-btn {
     width: 6.375rem;
