@@ -1,0 +1,246 @@
+.pc{
+    display: none;
+}
+.mobile-iframe{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    marginwidth:0;
+    display:block;
+    border:0;
+}
+.mobile{
+    position: relative;
+}
+/*.mobileIcon{
+     */
+/*position: absolute;
+ */
+/*top: 1.25rem;
+ */
+/*left: 1.25rem;
+ */
+/*width: 2.6875rem;
+ */
+/*height: 2.6875rem;
+ */
+/*background: url("../image/mobileIcon.png") 0 0 no-repeat;
+ */
+/*background-size: 100% 100%;
+ */
+/*
+}
+*/
+.mobileIcon{
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+    width: 2.6875rem;
+    height: 2.6875rem;
+    background: url("../image/mobileIcon.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    z-index: 100;
+}
+/*.detail-btn-wrapper{
+     */
+/*width: 23.4375rem;
+ */
+/*height: 3.75rem;
+ */
+/*background: #7b6c59;
+ */
+/*position: fixed;
+ */
+/*bottom: 0;
+ */
+/*left: 0;
+ */
+/*z-index: 100;
+ */
+/*
+}
+*/
+/*.detail-btn{
+     */
+/*width: 2.6875rem;
+ */
+/*height: 2.8125rem;
+ */
+/*background: url("../image/detailIcon.png") 0 0 no-repeat;
+ */
+/*background-size: 100% 100%;
+ */
+/*margin-left: auto;
+ */
+/*margin-right: auto;
+ */
+/*
+}
+*/
+.detail-btn-wrapper{
+    width: 100vw;
+    height: 3.75rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+/*主页面的背景跟按钮图片*/
+.main-detail{
+    background: #7b6c59;
+}
+.main-btn{
+    background: url("../image/detailIcon.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+/*遮盖层的背景跟按钮图片*/
+.text-detail{
+    background: #897965;
+}
+.text-btn{
+    background: url("../image/textIcon.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    z-index: 999;
+}
+.detail-btn{
+    width: 2.6875rem;
+    height: 2.8125rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    z-index: 101;
+}
+.layout{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 1001;
+    /*display: none;*/
+}
+.text-detail-wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*background: red;
+     */
+    z-index: 1002;
+    /*display: none;*/
+}
+.titie{
+    margin: 0;
+    font-size: 1.125rem;
+    font-family: PingFangSC-Regular, sans-serif;
+    text-align: center;
+    padding-top: 2.5rem;
+    color: #b4a994;
+    font-weight: 600;
+    letter-spacing: 0.125rem;
+}
+.subtitle{
+    font-size: 0.5625rem;
+    margin-top: 0.4375rem;
+    color: #b4a994;
+    text-align: center;
+    font-family: PingFangSC-Regular, sans-serif;
+}
+
+.text-content{
+    width: 86.6%;
+    /*height: 12rem;*/
+    /*height: 9.625rem;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.375rem;
+    font-size: 0.875rem;
+    color: #b4a994;
+    font-family: PingFangSC-Regular, sans-serif;
+    letter-spacing: 0.27rem;
+}
+.detail-box{
+    margin-top: 1.3rem;
+    width: 86.6%;
+    height: 1.85rem;
+    background: #6f5c46;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.875rem;
+    line-height: 1.85rem;
+    padding-left:0.625rem;
+    color: #E7DDD2;
+    font-family: PingFangSC-Regular, sans-serif;
+    letter-spacing: 0.125rem;
+}
+.mt10{
+    margin-top: 0.625rem;
+}
+.last-one{
+    width: 89%;
+    height: 1.85rem;
+    margin-left: auto;
+    margin-right: auto;
+    /*font-size: 0.875rem;*/
+    line-height: 1.85rem;
+    color: #E7DDD2;
+    font-family: PingFangSC-Regular, sans-serif;
+    display: flex;
+    justify-content:space-between;
+}
+.last-one-left,.last-one-right{
+    width: 46%;
+    height: 1.75rem;
+    background: #6f5c46;
+    padding-left:0.625rem;
+    font-size: 0.875rem;
+
+}
+
+.teshu{
+    width: 47%;
+    height: 1.75rem;
+    background: #6f5c46;
+    padding-left:0.625rem;
+    font-size: 0.65rem;
+}
+.onlyYou{
+    width: 48%;
+    height: 1.75rem;
+    background: #6f5c46;
+    /*padding-left:0.625rem;*/
+    font-size: 0.625rem;
+}
+.main-title-wraper{
+    position: relative;
+}
+.main-title{
+    width: 1.6875rem;
+    position: absolute;
+    top: 4.3875rem;
+    /*right: 0;*/
+    right: 7.5%;
+    font-size: 1.3125rem;
+    color: #b4a994;
+    font-family:LiSu,"隶书",sans-serif;
+}
+.main-top{
+    font-size: 1.3125rem;
+    color: #b4a994;
+    position: absolute;
+    top: -1.5625rem;
+    transform: rotate(90deg);
+    font-family: PingFangSC-Regular, sans-serif;
+}
+.main-bottom{
+    font-size: 1.3125rem;
+    color: #b4a994;
+    position: absolute;
+    bottom: -1.5625rem;
+    transform: rotate(90deg);
+    font-family: PingFangSC-Regular, sans-serif;
+}
+

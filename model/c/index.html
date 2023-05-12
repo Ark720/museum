@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<link rel="stylesheet" href="css/c.css">
+<style type="text/css" media="screen">
+
+</style>
+<body>
+    <script>
+        var sceneFile= "model/scene.json";
+        var sceneBGFile="model/sceneBG.json";
+        var sceneGlobalFile="model/sceneGlobal.json";
+        var dataBase="model/dataBase.json";
+    </script>
+    <script src="js/lib/jquery-2.1.1.js"></script>
+    <script src="js/lib/three.js"></script>
+    <script src="js/lib/tween.min.js"></script>
+    <script src="js/lib/newLib/Arrayremove.js"></script>
+    <script src="js/lib/controls/OrbitControls.js"></script>
+    <script src="js/lib/controls/FirstPersonControls.js"></script>
+    <script src="js/lib/controls/FlyControls.js"></script>
+    <script src="js/lib/controls/TrackballControls.js"></script>
+    <script src="js/lib/loaders/MTLLoader.js"></script>
+    <script src="js/lib/loaders/OBJMTLLoader.js"></script>
+    <script src="js/lib/loaders/OBJLoader.js"></script>
+
+
+    <script src="js/lib/composer/shaders/CopyShader.js"></script>
+    <script src="js/lib/composer/shaders/ConvolutionShader.js"></script>
+    <script src="js/lib/composer/shaders/SepiaShader.js"></script>
+    <script src="js/lib/composer/shaders/VignetteShader.js"></script>
+    <script src="js/lib/composer/shaders/DotScreenShader.js"></script>
+
+    <script src="js/lib/composer/postprocessing/MaskPass.js"></script>
+    <script src="js/lib/composer/postprocessing/BloomPass.js"></script>
+    <script src="js/lib/composer/postprocessing/DotScreenPass.js"></script>
+    <script src="js/lib/composer/postprocessing/EffectComposer.js"></script>
+    <script src="js/lib/composer/postprocessing/RenderPass.js"></script>
+    <script src="js/lib/composer/postprocessing/ShaderPass.js"></script>
+    <script src="js/lib/composer/CardboardEffect.js"></script>
+
+    <div id="viewport" style="width:1200px;height:645px;position:relative;">
+        <div id="butlit">
+            <div id="fullbut"></div>
+            <div id="nofull"></div>
+            <div id="vrbut" class="novr"></div>
+        </div>
+        <div id="loadall">
+        <div id="bg">
+            <div id="bg1"></div>
+            <div id="bar"></div>
+        </div>
+        <div id="loadnum">0</div>
+
+        </div>
+    </div>
+
+    <script src="js/viewport.js"></script>
+    <script src="js/lib/centerLoader.js"></script>
+<script>
+   var boxHelper=[];
+</script>
+</body>
+</html>

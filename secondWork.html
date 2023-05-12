@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>铜鎏金释迦牟尼佛像</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" media="screen and (min-width:1200px)"  href="style/main.css">
+    <link rel="stylesheet" media="screen and (max-width:1025px)" href="style/mobile-works-detail.css" type="text/css" />
+</head>
+<body>
+  <div class="pc">
+    <iframe class="second-main" marginwidth="0" src="">
+    </iframe>
+    <aside class="second-aside second-bg">
+    <p class="font26">铜鎏金释迦牟尼佛像</p>
+    <p class="font14">
+        头饰螺发，肉髻高耸，宝珠顶严。双目正前视，嘴微闭，双耳垂肩，面相方圆，丰满端正。上身穿袒右肩式袈裟，下着裙，衣纹流畅飘逸。右手施说法印，左手施禅定印，跏趺坐于仰覆莲座之上。莲座台前从右到左阴刻楷书&ldquo;正统年奉佛段福龙施&rdquo;九字款。
+    </p>
+
+    <div class="box address">
+        馆藏地点: 青海省博物馆
+    </div>
+    <div class="box age">
+        出土年代: 明代
+    </div>
+    <div class="box born">
+        出土地址：待确定
+    </div>
+    <div class="last-one clearfix">
+        <div class="third-new-font-size">尺寸：高38cm</div>
+        <div class="weight">材质：铜，鎏金</div>
+    </div>
+</aside>
+    <a href="index.html" class="homeIcon"></a>
+  </div>
+
+  <div class="mobile" id="app">
+      <iframe class="mobile-iframe" marginwidth="0" src="">
+      </iframe>
+      <div class="main-title">
+          铜鎏金释迦牟尼佛像
+          <div class="main-top">
+              【
+          </div>
+          <div class="main-bottom">
+              】
+          </div>
+      </div>
+      <div class="detail-btn-wrapper main-detail">
+          <div class="detail-btn main-btn" @click="ifShow"></div>
+      </div>
+      <a href="index.html" class="mobileIcon"></a>
+
+      <!--遮盖层-->
+      <div class="layout" v-if="show">
+      </div>
+
+      <div class="text-detail-wrapper" v-if="show">
+          <p class="titie">铜鎏金释迦牟尼佛像</p>
+          <div class="subtitle">【 Siddhattha Gotama 】</div>
+           <div class="text-content">
+               头饰螺发，肉髻高耸，宝珠顶严。双目正前视，嘴微闭，双耳垂肩，面相方圆，丰满端正。上身穿袒右肩式袈裟，下着裙，衣纹流畅飘逸。右手施说法印，左手施禅定印，跏趺坐于仰覆莲座之上。莲座台前从右到左阴刻楷书&ldquo;正统年奉佛段福龙施&rdquo;九字款。
+           </div>
+          <div class="detail-address detail-box ">
+              馆藏地点: 青海省博物馆
+          </div>
+          <div class="detail-age detail-box mt10">
+              出土年代: 明代
+          </div>
+          <div class="detail-born detail-box mt10">
+              出土地址：待确定
+          </div>
+          <div class="last-one mt10">
+                <div class="last-one-left">
+                    尺寸：高38cm
+                </div>
+                <div class="last-one-right">
+                    材质：铜，鎏金
+                </div>
+          </div>
+          <div class="detail-btn-wrapper text-detail" @click="ifHide">
+              <div class="detail-btn text-btn"></div>
+          </div>
+      </div>
+  </div>
+
+  <script src="js/vue.js"></script>
+  <script>
+      var vm = new Vue({
+          el: '#app',
+          data:{
+              show:false
+          },
+          methods:{
+              ifShow(){
+                 this.show = true;
+             },
+              ifHide(){
+                  this.show = false;
+              }
+          }
+      });
+      var iframe = document.getElementsByTagName("iframe");
+        function isMobile() {
+            let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+            return flag;
+        };
+        if(isMobile()) {
+            iframe[1].src="model/index.html?431/1504604450315";
+        }else{
+            iframe[0].src="model/index.html?431/1504604450315";
+        }
+  </script>
+</body>
+</html>

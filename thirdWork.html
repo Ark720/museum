@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>双人抬物纹彩陶盆</title>
+    <link rel="stylesheet" media="screen and (min-width:1200px)"  href="style/main.css">
+    <link rel="stylesheet" media="screen and (max-width:1025px)" href="style/mobile-works-detail.css" type="text/css" />
+    <link rel="stylesheet" href="style/normalize.css">
+</head>
+<body class="clearfix">
+    <div class="pc">
+        <iframe class="second-main" marginwidth="0" src="">
+            </iframe>
+        <aside class="second-aside third-bg">
+    <p class="font26">双人抬物纹彩陶盆</p>
+    <p class="font14">
+        泥质红陶，敛口，卷沿，略鼓腹，小平底。黑彩纹饰。口沿内壁等距绘有四组二人抬物的纹饰，两个人相对用双手抬着一个圆形物体，身体微微弯曲。图形寓意深厚，被释读为祭祀或劳动的情景。
+    </p>
+
+    <div class="box address">
+        馆藏地点: 青海省文物考古研究
+    </div>
+    <div class="box age">
+        制造年代: 新石器时代
+    </div>
+    <div class="box born">
+        出土地址：同德县宗日遗址
+    </div>
+    <div class="last-one clearfix">
+        <div class="third-new-font-size">尺寸：高11.3cm口径24.5cm</div>
+        <div class="weight">材质：细泥红陶质</div>
+    </div>
+</aside>
+        <a href="index.html" class="homeIcon"></a>
+    </div>
+
+    <div class="mobile" id="app">
+        <iframe class="mobile-iframe" marginwidth="0" src="">
+        </iframe>
+
+            <div class="main-title">
+            双人抬物纹彩陶盆
+                <div class="main-top">
+                    【
+                </div>
+                <div class="main-bottom">
+                    】
+                </div>
+            </div>
+
+        <div class="detail-btn-wrapper main-detail">
+            <div class="detail-btn main-btn" @click="ifShow"></div>
+        </div>
+        <a href="index.html" class="mobileIcon"></a>
+
+        <!--遮盖层-->
+        <div class="layout" v-if="show">
+        </div>
+
+        <div class="text-detail-wrapper" v-if="show">
+            <p class="titie">双人抬物纹彩陶盆</p>
+            <div class="subtitle">【 Painted pottery basin 】</div>
+            <div class="text-content">
+                泥质红陶，敛口，卷沿，略鼓腹，小平底。黑彩纹饰。口沿内壁等距绘有四组二人抬物的纹饰，两个人相对用双手抬着一个圆形物体，身体微微弯曲。图形寓意深厚，被释读为祭祀或劳动的情景。
+            </div>
+            <div class="detail-address detail-box ">
+                馆藏地点: 青海省文物考古研究
+            </div>
+            <div class="detail-age detail-box mt10">
+                制造年代: 新石器时代
+            </div>
+            <div class="detail-born detail-box mt10">
+                出土地址：同德县宗日遗址
+            </div>
+            <div class="last-one mt10">
+                <div class="onlyYou">
+                    尺寸：高11.3cm 口径24.5cm
+                </div>
+                <div class="last-one-right">
+                    材质：细泥红陶质
+                </div>
+            </div>
+            <div class="detail-btn-wrapper text-detail" @click="ifHide">
+                <div class="detail-btn text-btn"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/vue.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data:{
+                show:false
+            },
+            methods:{
+                ifShow(){
+                    this.show = true;
+                },
+                ifHide(){
+                    this.show = false;
+                }
+            }
+        });
+        var iframe = document.getElementsByTagName("iframe");
+        function isMobile() {
+            let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+            return flag;
+        };
+        if(isMobile()) {
+            iframe[1].src="model/index.html?431/1504607734046";
+        }else{
+            iframe[0].src="model/index.html?431/1504607734046";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>永乐款铜鎏金度母像</title>
+    <link rel="stylesheet" media="screen and (min-width:1200px)"  href="style/main.css">
+    <link rel="stylesheet" media="screen and (max-width:1025px)" href="style/mobile-works-detail.css" type="text/css" />
+    <link rel="stylesheet" href="style/normalize.css">
+</head>
+<body class="clearfix">
+<div class="pc">
+    <iframe class="second-main" marginwidth="0" src="">
+    </iframe>
+    <aside class="second-aside fifth-bg">
+    <p class="font26">永乐款铜鎏金度母像</p>
+    <p class="font14">
+        高发髻，头戴五花冠，大耳垂肩，面相方圆，丰满端正。袒上身，双手持莲花，左腿跏趺坐，右腿舒坐，脚踩一朵莲花。上身胸前饰多个“U”字形联珠式璎珞纹，帔帛搭于双肩，腰带下前后左右都有“U”字形联珠纹装饰。覆仰莲座制作精致，
+        上下有两圈联珠纹和仰覆长莲瓣各一周。座前从左到右阴刻“大明永乐年施”六字款。制作风格雍容华贵，富丽堂皇。
+    </p>
+
+    <div class="box address">
+        馆藏地点: 青海省文物考古研究
+    </div>
+    <div class="box age">
+        制造年代: 明代
+    </div>
+    <div class="box born">
+        出土地址：未知
+    </div>
+    <div class="last-one clearfix">
+        <div class="height">尺寸：高26cm</div>
+        <div class="weight">材质：铜，鎏金</div>
+    </div>
+</aside>
+    <a href="index.html" class="homeIcon"></a>
+</div>
+
+<div class="mobile" id="app">
+    <iframe class="mobile-iframe" marginwidth="0" src="">
+    </iframe>
+    <div class="main-title">
+        永乐款铜鎏金度母像
+        <div class="main-top">
+            【
+        </div>
+        <div class="main-bottom">
+            】
+        </div>
+    </div>
+    <div class="detail-btn-wrapper main-detail">
+        <div class="detail-btn main-btn" @click="ifShow"></div>
+    </div>
+    <a href="index.html" class="mobileIcon"></a>
+
+    <!--遮盖层-->
+    <div class="layout" v-if="show">
+    </div>
+
+    <div class="text-detail-wrapper" v-if="show">
+        <p class="titie">永乐款铜鎏金度母像</p>
+        <div class="subtitle">【 Tara Like 】</div>
+        <div class="text-content">
+            高发髻，头戴五花冠，大耳垂肩，面相方圆，丰满端正。袒上身，双手持莲花，左腿跏趺坐，右腿舒坐，脚踩一朵莲花。上身胸前饰多个“U”字形联珠式璎珞纹，帔帛搭于双肩，腰带下前后左右都有“U”字形联珠纹装饰。覆仰莲座制作精致，
+            上下有两圈联珠纹和仰覆长莲瓣各一周。座前从左到右阴刻“大明永乐年施”六字款。制作风格雍容华贵，富丽堂皇。
+        </div>
+        <div class="detail-address detail-box ">
+            馆藏地点: 青海省文物考古研究
+        </div>
+        <div class="detail-age detail-box mt10">
+            制造年代: 明代
+        </div>
+        <div class="detail-born detail-box mt10">
+            出土地址：未知
+        </div>
+        <div class="last-one mt10">
+            <div class="last-one-left">
+                尺寸：高26cm
+            </div>
+            <div class="last-one-right">
+                材质：铜，鎏金
+            </div>
+        </div>
+        <div class="detail-btn-wrapper text-detail" @click="ifHide">
+            <div class="detail-btn text-btn"></div>
+        </div>
+    </div>
+</div>
+<script src="js/vue.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data:{
+            show:false
+        },
+        methods:{
+            ifShow(){
+                this.show = true;
+            },
+            ifHide(){
+                this.show = false;
+            }
+        }
+    });
+        var iframe = document.getElementsByTagName("iframe");
+        function isMobile() {
+            let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+            return flag;
+        };
+        if(isMobile()) {
+            iframe[1].src="model/index.html?431/1504593629540";
+        }else{
+            iframe[0].src="model/index.html?431/1504593629540";
+        }
+
+</script>
+</body>
+</html>

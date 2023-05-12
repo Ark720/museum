@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>台北博物馆</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/swiper.min.css">
+    <link rel="stylesheet" media="screen and (min-width:1200px)"  href="style/first-main.css">
+    <link rel="stylesheet" media="screen and (max-width:1025px)" href="style/mobileMain.css" type="text/css" />
+</head>
+<body>
+    <div class="first-container">
+
+
+        <div class="swiper-container center-in-center" >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide clearfix">
+                    <div class="new-works first-bg">
+                        <a href="firstWorks.html" class="works-btn bottom-btn">查看模型</a>
+                    </div>
+                    <div class="new-works pad second-bg">
+                        <a href="secondWork.html" class="works-btn bottom-btn">查看模型</a>
+                    </div>
+                    <div class="new-works pad third-bg">
+                        <a href="thirdWork.html" class="works-btn bottom-btn">查看模型</a>
+                    </div>
+                    <div class="new-works pad fourth-bg">
+                        <a href="fourthWorks.html" class="works-btn bottom-btn">查看模型</a>
+                    </div>
+                    <div class="new-works pad fifth-bg">
+                        <a href="fifthWorks.html" class="works-btn bottom-btn">查看模型</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <!--<div class="swiper-pagination bottom-pagination"></div>-->
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="second-container">
+
+
+        <div class="swiper-container center-in-center" >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="new-works first-bg">
+                        <a href="firstWorks.html" class="works-btn bottom-btn">查看模型</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="new-works pad second-bg">
+                        <a href="secondWork.html" class="works-btn bottom-btn">查看模型</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="new-works pad third-bg">
+                        <a href="thirdWork.html" class="works-btn bottom-btn">查看模型</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="new-works pad fourth-bg">
+                        <a href="fourthWorks.html" class="works-btn bottom-btn">查看模型</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="new-works pad fifth-bg">
+                        <a href="fifthWorks.html" class="works-btn bottom-btn">查看模型</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 如果需要分页器 -->
+
+        </div>
+
+        <div class="swiper-pagination bottom-pagination"></div>
+
+
+    </div>
+
+
+
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+            // direction: 'vertical', // 垂直切换选项
+            // loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        })
+    </script>
+</body>
+</html>
