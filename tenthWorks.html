@@ -15,12 +15,14 @@
     <!-- <iframe class="second-main" marginwidth="0" src="">
     </iframe> -->
     <div class="sketchfab-embed-wrapper second-main" style="position: relative;" marginwidth="0">
-        <iframe title="薩莫色雷斯島的勝利女神像" frameborder="0" allowfullscreen style="width: 100%; height: 100%;"
+        <model-viewer disable-zoom camera-controls alt="Model" src="./model/goddess.glb" style="width: 100%; height: 100%; background: black;">
+        </model-viewer>
+        <!-- <iframe title="薩莫色雷斯島的勝利女神像" frameborder="0" allowfullscreen style="width: 100%; height: 100%;"
             mozallowfullscreen="true" webkitallowfullscreen="true"
                     allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
             execution-while-out-of-viewport execution-while-not-rendered web-share
             src="https://sketchfab.com/models/dc53cba3f341486bb4b4c1eac0953622/embed?autospin=0&autostart=1&camera=0&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_help=0&ui_settings=0&ui_fullscreen=1&ui_annotations=0">
-        </iframe>
+        </iframe> -->
     </div>
     <aside class="second-aside new-bg">
     <p class="font26">聖母像</p>
@@ -95,6 +97,7 @@
     </div>
 </div>
 <script src="js/vue.js"></script>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script>
     var vm = new Vue({
         el: '#app',
