@@ -244,3 +244,31 @@
     font-family: PingFangSC-Regular, sans-serif;
 }
 
+/* audio play */
+.audioPlayBtn {
+    background: transparent;
+    position: absolute;
+    top: 80px;
+    left: 1.25rem;
+    z-index: 10;
+    border: none;
+    cursor: pointer;
+    padding:0;
+    width: 2.6875rem;
+    height: 2.6875rem;
+  }
+  .pause {
+    position:absolute;
+    inset: 0;
+    margin: auto;
+    scale:1.7;
+    display: none;
+  }
+  .play {
+    position:absolute;
+    inset: 0;
+    margin: auto;
+    scale:1.7;
+    display: block;
+  }
+  

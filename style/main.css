@@ -1,148 +1,165 @@
-.mobile{
-    display: none;
+.mobile {
+  display: none;
 }
-.second-main{
-    width: 79%;
-    height: 100vh;
-    float: left;
-    padding: 0;
-    margin: 0;
-    marginwidth:0;
-    display:block;
-    border:0;
+.second-main {
+  width: 79%;
+  height: 100vh;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+  border: 0;
 }
 .clearfix:after {
-    content: " ";
-    display: block;;
-    line-height: 0;
-    height: 0;
-    visibility: hidden;
-    clear: both;
+  content: " ";
+  display: block;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
 }
-p{
-    padding: 0;
-    margin: 0;
+p {
+  padding: 0;
+  margin: 0;
 }
-.second-aside{
-    width: 21%;
-    height: 100vh;
-    float: right;
-    padding: 0;
-    margin: 0;
+.second-aside {
+  width: 21%;
+  height: 100vh;
+  float: right;
+  padding: 0;
+  margin: 0;
 }
 .new-bg {
-    background: url("../image/new-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+  background: url("../image/new-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.fifth-bg{
-    background: url("../image/second-page-fifth-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+.fifth-bg {
+  background: url("../image/second-page-fifth-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.fourth-bg{
-    background: url("../image/second-page-fourth-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+.fourth-bg {
+  background: url("../image/second-page-fourth-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.third-bg{
-    background: url("../image/second-page-third-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+.third-bg {
+  background: url("../image/second-page-third-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.second-bg{
-    background: url("../image/second-page-second-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+.second-bg {
+  background: url("../image/second-page-second-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.first-bg{
-    background: url("../image/second-page-first-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+.first-bg {
+  background: url("../image/second-page-first-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.third-new-font-size{
-    width: 157px;
-    height: 32px;
-    line-height: 32px;
-    float: left;
-    background: #836b51;
-    font-size: 12px;
-    padding-left: 10px;
-    font-family:  "Microsoft YaHei";
+.third-new-font-size {
+  width: 157px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  background: #836b51;
+  font-size: 12px;
+  padding-left: 10px;
+  font-family: "Microsoft YaHei";
 }
-.homeIcon{
-    display: block;
-    width: 36px;
-    height: 36px;
-    background: url("../image/homeIcon.png") 0 0 no-repeat;
-    background-size: 100% 100%;
-    position: fixed;
-    top: 18px;
-    left: 20px;
-    z-index: 100;
+.homeIcon {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: url("../image/homeIcon.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  top: 18px;
+  left: 20px;
+  z-index: 100;
 }
-.font26{
-    font-size: 24px;
-    text-align: center;
-    margin-top: 34px;
-    color: #665c45;
-    font-family:LiSu,"隶书",sans-serif;
+.font26 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 34px;
+  color: #665c45;
+  font-family: LiSu, "隶书", sans-serif;
 }
-.font14{
-    font-size: 14px;
-    margin-top: 55px;
-    padding: 0 27px;
-    color: #665c45;
-    font-family:  "Microsoft YaHei";
+.font14 {
+  font-size: 14px;
+  margin-top: 55px;
+  padding: 0 27px;
+  color: #665c45;
+  font-family: "Microsoft YaHei";
 }
-.second-font14{
-    font-size: 14px;
-    margin-top: 21px;
-    padding: 0 27px;
-    color: #665c45;
-    font-family:  "Microsoft YaHei";
+.second-font14 {
+  font-size: 14px;
+  margin-top: 21px;
+  padding: 0 27px;
+  color: #665c45;
+  font-family: "Microsoft YaHei";
 }
-.address{
-    margin-top: 29px;
+.address {
+  margin-top: 29px;
 }
-.box{
-    width: 332px;
-    height: 32px;
-    line-height: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #836b51;
-    color: #f8f7f7;
-    font-size: 12px;
-    padding-left: 10px;
-    font-family:  "Microsoft YaHei";
+.box {
+  width: 332px;
+  height: 32px;
+  line-height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #836b51;
+  color: #f8f7f7;
+  font-size: 12px;
+  padding-left: 10px;
+  font-family: "Microsoft YaHei";
 }
-.age{
-    margin-top: 8px;
+.age {
+  margin-top: 8px;
 }
-.born{
-    margin-top: 8px;
-}
-
-.last-one{
-    width: 342px;
-    margin-top: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #f8f7f7;
-}
-.height{
-    width: 157px;
-    height: 32px;
-    line-height: 32px;
-    float: left;
-    background: #836b51;
-    font-size: 12px;
-    padding-left: 10px;
-    font-family:  "Microsoft YaHei";
-}
-.weight{
-    width: 157px;
-    height: 32px;
-    line-height: 32px;
-    font-size: 12px;
-    float: right;
-    background: #836b51;
-    padding-left: 10px;
-    font-family:  "Microsoft YaHei";
+.born {
+  margin-top: 8px;
 }
 
+.last-one {
+  width: 342px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f8f7f7;
+}
+.height {
+  width: 157px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  background: #836b51;
+  font-size: 12px;
+  padding-left: 10px;
+  font-family: "Microsoft YaHei";
+}
+.weight {
+  width: 157px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  float: right;
+  background: #836b51;
+  padding-left: 10px;
+  font-family: "Microsoft YaHei";
+}
+/* audio play */
+.audioPlayBtn {
+  background: transparent;
+  position: absolute;
+  top:18px;
+  width:36px;
+  height:36px;
+  left: 70px;
+  z-index: 10;
+  border: none;
+  cursor: pointer;
+  scale: 1.5;
+}
+.pause {
+  display: none;
+}
+.play {
+  display: block;
+}

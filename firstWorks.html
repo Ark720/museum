@@ -1,120 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>卧式羊形铜灯</title>
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" media="screen and (min-width:1200px)"  href="style/main.css">
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" media="screen and (min-width:1200px)" href="style/main.css" />
     <link rel="stylesheet" media="screen and (max-width:1025px)" href="style/mobile-works-detail.css" type="text/css" />
-</head>
-<body class="clearfix">
+  </head>
+  <body class="clearfix">
     <div class="pc">
-        <iframe class="second-main" marginwidth="0" src="">
-        </iframe>
-        <aside class="second-aside first-bg">
-    <p class="font26">卧式羊形铜灯</p>
-    <p class="font14">
-        羊的背部与器身为分开铸造而成，并由颈部后面的关纽与器身相连，因此它是可以开合的。使用时，将羊臀部处的小提纽提起并向上翻卷，羊的背部便成为了羊头上托起的一个灯盘，然后再置油点灯。放置不用时，剩余油脂会通过灯盘一侧的流口倒流回器物的空腹内，羊背折回原位，铜灯便又成为了一件精美别致的观赏品。
-    </p>
+      <iframe class="second-main" marginwidth="0" src=""> </iframe>
+      <aside class="second-aside first-bg">
+        <p class="font26">卧式羊形铜灯</p>
+        <p class="font14">
+          羊的背部与器身为分开铸造而成，并由颈部后面的关纽与器身相连，因此它是可以开合的。使用时，将羊臀部处的小提纽提起并向上翻卷，羊的背部便成为了羊头上托起的一个灯盘，然后再置油点灯。放置不用时，剩余油脂会通过灯盘一侧的流口倒流回器物的空腹内，羊背折回原位，铜灯便又成为了一件精美别致的观赏品。
+        </p>
 
-    <div class="box address">
-        馆藏地点: 西安市文物管理委员会
+        <div class="box address">馆藏地点: 西安市文物管理委员会</div>
+        <div class="box age">制造年代: 西汉</div>
+        <div class="box born">出土地址：西安</div>
+        <div class="last-one clearfix">
+          <div class="third-new-font-size">尺寸：高19cm，长23cm</div>
+          <div class="weight">材质：铜，鎏金</div>
+        </div>
+      </aside>
+      <a href="index.html" class="homeIcon"></a>
     </div>
-    <div class="box age">
-        制造年代: 西汉
-    </div>
-    <div class="box born">
-        出土地址：西安
-    </div>
-    <div class="last-one clearfix">
-        <div class="third-new-font-size">尺寸：高19cm，长23cm</div>
-        <div class="weight">材质：铜，鎏金</div>
-    </div>
-</aside>
-        <a href="index.html" class="homeIcon"></a>
-    </div>
-
 
     <div class="mobile" id="app">
-        <iframe class="mobile-iframe" marginwidth="0" src="">
-        </iframe>
-        <div class="main-title">
-            卧式羊形铜灯
-            <div class="main-top">
-                【
-            </div>
-            <div class="main-bottom">
-                】
-            </div>
-        </div>
-        <div class="detail-btn-wrapper main-detail">
-            <div class="detail-btn main-btn" @click="ifShow"></div>
-        </div>
-        <a href="index.html" class="mobileIcon"></a>
+      <iframe class="mobile-iframe" marginwidth="0" src=""> </iframe>
+      <div class="main-title">
+        卧式羊形铜灯
+        <div class="main-top">【</div>
+        <div class="main-bottom">】</div>
+      </div>
+      <div class="detail-btn-wrapper main-detail">
+        <div class="detail-btn main-btn" @click="ifShow"></div>
+      </div>
+      <a href="index.html" class="mobileIcon"></a>
 
-        <!--遮盖层-->
-        <div class="layout" v-if="show">
-        </div>
+      <!--遮盖层-->
+      <div class="layout" v-if="show"></div>
 
-        <div class="text-detail-wrapper" v-if="show">
-            <p class="titie">卧式羊形铜灯</p>
-            <div class="subtitle">【 Siddhattha Gotama 】</div>
-            <div class="text-content">
-                羊的背部与器身为分开铸造而成，并由颈部后面的关纽与器身相连，因此它是可以开合的。使用时，将羊臀部处的小提纽提起并向上翻卷，羊的背部便成为了羊头上托起的一个灯盘，然后再置油点灯。放置不用时，剩余油脂会通过灯盘一侧的流口倒流回器物的空腹内，羊背折回原位，铜灯便又成为了一件精美别致的观赏品。
-            </div>
-            <div class="detail-address detail-box ">
-                馆藏地点: 西安市文物管理委员会
-            </div>
-            <div class="detail-age detail-box mt10">
-                制造年代: 西汉
-            </div>
-            <div class="detail-born detail-box mt10">
-                出土地址：西安
-            </div>
-            <div class="last-one mt10">
-                <div class="teshu">
-                    尺寸：高19cm，长23cm
-                </div>
-                <div class="last-one-right">
-                    材质：铜，鎏金
-                </div>
-            </div>
-            <div class="detail-btn-wrapper text-detail" @click="ifHide">
-                <div class="detail-btn text-btn"></div>
-            </div>
+      <div class="text-detail-wrapper" v-if="show">
+        <p class="titie">卧式羊形铜灯</p>
+        <div class="subtitle">【 Siddhattha Gotama 】</div>
+        <div class="text-content">
+          羊的背部与器身为分开铸造而成，并由颈部后面的关纽与器身相连，因此它是可以开合的。使用时，将羊臀部处的小提纽提起并向上翻卷，羊的背部便成为了羊头上托起的一个灯盘，然后再置油点灯。放置不用时，剩余油脂会通过灯盘一侧的流口倒流回器物的空腹内，羊背折回原位，铜灯便又成为了一件精美别致的观赏品。
         </div>
+        <div class="detail-address detail-box">馆藏地点: 西安市文物管理委员会</div>
+        <div class="detail-age detail-box mt10">制造年代: 西汉</div>
+        <div class="detail-born detail-box mt10">出土地址：西安</div>
+        <div class="last-one mt10">
+          <div class="teshu">尺寸：高19cm，长23cm</div>
+          <div class="last-one-right">材质：铜，鎏金</div>
+        </div>
+        <div class="detail-btn-wrapper text-detail" @click="ifHide">
+          <div class="detail-btn text-btn"></div>
+        </div>
+      </div>
     </div>
 
     <script src="js/vue.js"></script>
     <script>
-        var vm = new Vue({
-            el: '#app',
-            data:{
-                show:false
-            },
-            methods:{
-                ifShow(){
-                    this.show = true;
-                },
-                ifHide(){
-                    this.show = false;
-                }
-            }
-        });
-        var iframe = document.getElementsByTagName("iframe");
-        function isMobile() {
-            let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
-            return flag;
-        };
-        if(isMobile()) {
-            iframe[1].src="model/index.html?431/1504581303250";
-        }else{
-            iframe[0].src="model/index.html?431/1504581303250";
-        }
-        
+      var vm = new Vue({
+        el: "#app",
+        data: {
+          show: false,
+        },
+        methods: {
+          ifShow() {
+            this.show = true;
+          },
+          ifHide() {
+            this.show = false;
+          },
+        },
+      });
+      var iframe = document.getElementsByTagName("iframe");
+      function isMobile() {
+        let flag = navigator.userAgent.match(
+          /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
+        );
+        return flag;
+      }
+      if (isMobile()) {
+        iframe[1].src = "model/index.html?431/1504581303250";
+      } else {
+        iframe[0].src = "model/index.html?431/1504581303250";
+      }
     </script>
-</body>
+  </body>
 </html>

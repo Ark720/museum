@@ -1,126 +1,128 @@
 /*移动端打开,把PC端内容隐藏掉*/
-.first-container{
-    display: none;
+.first-container {
+  display: none;
 }
 
 /*移动端样式*/
-.second-container{
-    width: 100vw;
-    height: 100vh;
-    background: url("../image/index-mobile-bg.jpg") 0 0  no-repeat;
-    background-size: 100% 100%;
+.second-container {
+  width: 100vw;
+  height: 100vh;
+  background: url("../image/index-mobile-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
 
 /*.new-works{*/
-    /*width: 285px;*/
-    /*height: 405px;*/
-    /*background: red;*/
-    /*margin-top: 95px;*/
-    /*margin-left: 45px;*/
-    /*position: relative;*/
+/*width: 285px;*/
+/*height: 405px;*/
+/*background: red;*/
+/*margin-top: 95px;*/
+/*margin-left: 45px;*/
+/*position: relative;*/
 /*}*/
-.new-works{
-    width: 17.8125rem;
-    height: 25.3125rem;
-    background: red;
-    margin-top: 5.9375rem;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.new-works {
+  width: 17.8125rem;
+  height: 25.3125rem;
+  background: red;
+  margin-top: 5.9375rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
-.first-bg{
-    background: url("../image/first-works-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+.first-bg {
+  background: url("../image/first-works-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.second-bg{
-    background: url("../image/second-works-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+.second-bg {
+  background: url("../image/second-works-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.third-bg{
-    background: url("../image/third-works-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+.third-bg {
+  background: url("../image/third-works-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.fourth-bg{
-    background: url("../image/fourth-works-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+.fourth-bg {
+  background: url("../image/fourth-works-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.fifth-bg{
-    background: url("../image/fifth-works-bg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
+.fifth-bg {
+  background: url("../image/fifth-works-bg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.sixth-bg{
-    background: url("../image/sixth-works.png") 0 0 no-repeat;
-    background-size: 100% 100%;
+.sixth-bg {
+  background: url("../image/sixth-works.png") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.seventh-bg{
-    background: url("../image/seventh-works.png") 0 0 no-repeat;
-    background-size: 100% 100%;
+.seventh-bg {
+  background: url("../image/seventh-works.png") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.eighth-bg{
-    background: url("../image/eighth-works.png") 0 0 no-repeat;
-    background-size: 100% 100%;
+.eighth-bg {
+  background: url("../image/eighth-works.png") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.ninth-bg{
-    background: url("../image/ninth-works.png") 0 0 no-repeat;
-    background-size: 100% 100%;
+.ninth-bg {
+  background: url("../image/ninth-works.png") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
-.tenth-bg{
-    background: url("../image/tenth-works.png") 0 0 no-repeat;
-    background-size: 100% 100%;
+.tenth-bg {
+  background: url("../image/tenth-works.png") 0 0 no-repeat;
+  background-size: 100% 100%;
 }
 
 .works-btn {
-    width: 6.375rem;
-    height: 2.3125rem;
-    display: block;
-    border-radius: 0.4rem;
-    font-size: 1rem;
-    text-align: center;
-    /*line-height: 2.3125rem;*/
-    line-height: 2.3rem;
-    border: 1px solid #372416;
-    color: #f2e1d6;
-    background: #372416;
-    position: absolute;
-    bottom: 1.75rem;
-    left: 6.0625rem;
-    letter-spacing: 0.125rem;
+  width: 6.375rem;
+  height: 2.3125rem;
+  display: block;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  text-align: center;
+  /*line-height: 2.3125rem;*/
+  line-height: 2.3rem;
+  border: 1px solid #372416;
+  color: #f2e1d6;
+  background: #372416;
+  position: absolute;
+  bottom: 1.75rem;
+  left: 6.0625rem;
+  letter-spacing: 0.125rem;
 }
-a{text-decoration:none}
+a {
+  text-decoration: none;
+}
 
+.bottom-pagination {
+  width: 68%;
+  height: 3.375rem;
+  position: absolute;
+  bottom: 3.125rem;
+  left: 16%;
+}
+.swiper-pagination-bullet {
+  width: 2.1875rem;
+  height: 2.75rem;
+  background: url("../image/nav3.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+  margin-right: 1.0625rem;
+  opacity: 1;
+  border-radius: 0;
+}
+.swiper-pagination-bullet:last-child {
+  margin-right: 0;
+}
+.swiper-pagination-bullet-active {
+  width: 2.1875rem;
+  height: 2.75rem;
+  background: url("../image/selected.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+  opacity: 1;
+  border-radius: 0;
+}
+.lowest-pagination {
+  width: 68%;
+  height: 3.375rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 16%;
+}
 
-.bottom-pagination{
-    width: 68%;
-    height: 3.375rem;
-    position: absolute;
-    bottom: 3.125rem;
-    left: 16%;
-}
-.swiper-pagination-bullet{
-    width: 2.1875rem;
-    height: 2.75rem;
-    background:url("../image/nav3.png") 0 0 no-repeat;
-    background-size:100% 100% ;
-    margin-right: 1.0625rem ;
-    opacity:1;
-    border-radius:0;
-}
-.swiper-pagination-bullet:last-child{
-    margin-right: 0;
-}
-.swiper-pagination-bullet-active{
-    width: 2.1875rem;
-    height: 2.75rem;
-    background: url("../image/selected.png") 0 0 no-repeat;
-    background-size:100% 100% ;
-    opacity:1;
-    border-radius:0;
-}
-.lowest-pagination{
-    width: 68%;
-    height: 3.375rem;
-    position: absolute;
-    bottom: 2rem;
-    left: 16%;
-}
 

@@ -1,22 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>成化鬥彩瓷雞缸杯</title>
-    <link rel="stylesheet" media="screen and (min-width:1200px)"  href="style/main.css">
+    <link rel="stylesheet" media="screen and (min-width:1200px)" href="style/main.css" />
     <link rel="stylesheet" media="screen and (max-width:1025px)" href="style/mobile-works-detail.css" type="text/css" />
-    <link rel="stylesheet" href="style/normalize.css">
-</head>
-<body class="clearfix">
-<div class="pc">
-    <audio id="music" src="./audio/chickenCup.mp3" loop autoplay></audio>
-    <!-- <iframe class="second-main" marginwidth="0" src="">
+    <link rel="stylesheet" href="style/normalize.css" />
+  </head>
+  <body class="clearfix">
+    <button class="audioPlayBtn">
+      <img class="pause" src="./img/volume_up.svg" alt="" />
+      <img class="play" src="./img/volume_off.svg" alt="" />
+    </button>
+    <audio id="music" src="./audio/chickenCup.mp3" loop></audio>
+    <div class="pc">
+ 
+      <!-- <iframe class="second-main" marginwidth="0" src="">
     </iframe> -->
-    <div class="sketchfab-embed-wrapper second-main" style="position: relative;" marginwidth="0">
-        <model-viewer disable-zoom camera-controls alt="Model" src="./model/cup.glb" style="width: 100%; height: 100%; background: black;">
+      <div class="sketchfab-embed-wrapper second-main" style="position: relative" marginwidth="0">
+        <model-viewer
+          disable-zoom
+          camera-controls
+          alt="Model"
+          src="./model/cup.glb"
+          style="width: 100%; height: 100%; background: black"
+        >
         </model-viewer>
         <!-- <iframe title="成化鬥彩瓷雞缸杯" frameborder="0" allowfullscreen style="width: 100%; height: 100%;"
             mozallowfullscreen="true" webkitallowfullscreen="true"
@@ -24,108 +37,86 @@
             execution-while-out-of-viewport execution-while-not-rendered web-share
             src="https://sketchfab.com/models/772b103b6fda4a048cbf12265d5bd3da/embed?autospin=0&autostart=1&camera=0&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_help=0&ui_settings=0&ui_fullscreen=1&ui_annotations=0">
         </iframe> -->
-    </div>
-    <aside class="second-aside new-bg">
-    <p class="font26">成化鬥彩瓷雞缸杯</p>
-    <p class="font14">
-        吹口飾蓮瓣及卷草紋，外板則鍍金，並敲飾五瓣花式錦、鑄藏文贊詞與卷草紋，緣鑲珊瑚、松石、青金石等。
-    </p>
+      </div>
+      <aside class="second-aside new-bg">
+        <p class="font26">成化鬥彩瓷雞缸杯</p>
+        <p class="font14">吹口飾蓮瓣及卷草紋，外板則鍍金，並敲飾五瓣花式錦、鑄藏文贊詞與卷草紋，緣鑲珊瑚、松石、青金石等。</p>
 
-    <div class="box address">
-        文物朝代 ： 清朝
+        <div class="box address">文物朝代 ： 清朝</div>
+        <div class="box age">公元紀年 ： 1736-1795</div>
+        <div class="box born">出土地址：未知</div>
+        <div class="last-one clearfix">
+          <div class="height">年號 ： 乾隆</div>
+          <div class="weight">技法 ： 刻款</div>
+        </div>
+      </aside>
+      <a href="index.html" class="homeIcon"></a>
     </div>
-    <div class="box age">
-        公元紀年 ： 1736-1795
-    </div>
-    <div class="box born">
-        出土地址：未知
-    </div>
-    <div class="last-one clearfix">
-        <div class="height">年號 ： 乾隆</div>
-        <div class="weight">技法 ： 刻款</div>
-    </div>
-</aside>
-    <a href="index.html" class="homeIcon"></a>
-</div>
 
-<div class="mobile" id="app">
-    <iframe class="mobile-iframe" marginwidth="0" src="">
-    </iframe>
-    <div class="main-title">
+    <div class="mobile" id="app">
+      <iframe class="mobile-iframe" marginwidth="0" src=""> </iframe>
+      <div class="main-title">
         成化鬥彩瓷雞缸杯
-        <div class="main-top">
-            【
-        </div>
-        <div class="main-bottom">
-            】
-        </div>
-    </div>
-    <div class="detail-btn-wrapper main-detail">
+        <div class="main-top">【</div>
+        <div class="main-bottom">】</div>
+      </div>
+      <div class="detail-btn-wrapper main-detail">
         <div class="detail-btn main-btn" @click="ifShow"></div>
-    </div>
-    <a href="index.html" class="mobileIcon"></a>
+      </div>
+      <a href="index.html" class="mobileIcon"></a>
 
-    <!--遮盖层-->
-    <div class="layout" v-if="show">
-    </div>
+      <!--遮盖层-->
+      <div class="layout" v-if="show"></div>
 
-    <div class="text-detail-wrapper" v-if="show">
+      <div class="text-detail-wrapper" v-if="show">
         <p class="titie">成化鬥彩瓷雞缸杯</p>
         <div class="subtitle">【 Tara Like 】</div>
         <div class="text-content">
-            吹口飾蓮瓣及卷草紋，外板則鍍金，並敲飾五瓣花式錦、鑄藏文贊詞與卷草紋，緣鑲珊瑚、松石、青金石等。
+          吹口飾蓮瓣及卷草紋，外板則鍍金，並敲飾五瓣花式錦、鑄藏文贊詞與卷草紋，緣鑲珊瑚、松石、青金石等。
         </div>
-        <div class="detail-address detail-box ">
-            文物朝代 ： 清朝
-        </div>
-        <div class="detail-age detail-box mt10">
-            公元紀年 ： 1736-1795
-        </div>
-        <div class="detail-born detail-box mt10">
-            出土地址：未知
-        </div>
+        <div class="detail-address detail-box">文物朝代 ： 清朝</div>
+        <div class="detail-age detail-box mt10">公元紀年 ： 1736-1795</div>
+        <div class="detail-born detail-box mt10">出土地址：未知</div>
         <div class="last-one mt10">
-            <div class="last-one-left">
-                年號 ： 乾隆
-            </div>
-            <div class="last-one-right">
-                技法 ： 刻款
-            </div>
+          <div class="last-one-left">年號 ： 乾隆</div>
+          <div class="last-one-right">技法 ： 刻款</div>
         </div>
         <div class="detail-btn-wrapper text-detail" @click="ifHide">
-            <div class="detail-btn text-btn"></div>
+          <div class="detail-btn text-btn"></div>
         </div>
+      </div>
     </div>
-</div>
-<script src="js/vue.js"></script>
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-<script>
-    var vm = new Vue({
-        el: '#app',
-        data:{
-            show:false
+    <script src="js/vue.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script>
+      var vm = new Vue({
+        el: "#app",
+        data: {
+          show: false,
         },
-        methods:{
-            ifShow(){
-                this.show = true;
-            },
-            ifHide(){
-                this.show = false;
-            }
-        }
-    });
-        var iframe = document.getElementsByTagName("iframe");
-        function isMobile() {
-            let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
-            return flag;
-        };
-        if(isMobile()) {
-            iframe[1].src="https://sketchfab.com/models/772b103b6fda4a048cbf12265d5bd3da/embed?autospin=0&autostart=1&camera=0&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_help=0&ui_settings=0&ui_fullscreen=1&ui_annotations=0";
-        }else{
-            // iframe[0].src="model/index.html?19/1605768076840";
-        }
-
-</script>
-
-</body>
+        methods: {
+          ifShow() {
+            this.show = true;
+          },
+          ifHide() {
+            this.show = false;
+          },
+        },
+      });
+      var iframe = document.getElementsByTagName("iframe");
+      function isMobile() {
+        let flag = navigator.userAgent.match(
+          /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
+        );
+        return flag;
+      }
+      if (isMobile()) {
+        iframe[1].src =
+          "https://sketchfab.com/models/772b103b6fda4a048cbf12265d5bd3da/embed?autospin=0&autostart=1&camera=0&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_help=0&ui_settings=0&ui_fullscreen=1&ui_annotations=0";
+      } else {
+        // iframe[0].src="model/index.html?19/1605768076840";
+      }
+    </script>
+      <script src="./js/audioPlay.js"></script>
+  </body>
 </html>

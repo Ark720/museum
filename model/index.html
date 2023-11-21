@@ -41,7 +41,11 @@
     </script>
 </head>
 <body style="background-color: rgba(0,0,0,0);">
-
+    <button class="audioPlayBtn">
+        <img class="pause" src="./c/image/volume_up.svg" alt="" />
+        <img class="play" src="./c/image/volume_off.svg"alt="" />
+      </button>
+    <audio id="music" loop></audio>
 <!-- 作品浏览 -->
 <div class="maskdiv"></div>
 <div class="enter">
@@ -53,7 +57,6 @@
     <iframe id="iframelink" allowtransparency="true" frameborder="0"></iframe>
     <div class="iframe_close"></div>
 </div>
-<audio id="music" loop autoplay></audio>
 <div id="viewport">
     <div class="zPic"></div>
     <a class="logo" href="/"></a>
@@ -106,14 +109,13 @@
 </div>
 <script type="text/javascript" src="E2.0/js/libs/jquery-2.1.1.js"></script>
 <script type="text/javascript" src="E2.0/js/libs/touch-0.2.14.min.js"></script>
-
+<script src="./audioPlay.js"></script>
 <script src="E2.0/js/libs/three1.js"></script>
 <script src='E2.0/js/libs/decoder.js'></script>
 <script src="E2.0/js/libs/DRACOLoader.js?t=20170822"></script>
 <script src="E2.0/js/libs/swiper.min.js"></script>
 <script data-main="E2.0/js/mainNew"
         src="E2.0/js/libs/require.js"></script>
-
 </body>
 </html>
 

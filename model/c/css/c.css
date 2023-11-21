@@ -1131,3 +1131,26 @@ body,html{
         transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
     }
 }
+
+
+
+
+/* audio play */
+.audioPlayBtn {
+  background: transparent;
+  position: absolute;
+  top:18px;
+  width:36px;
+  height:36px;
+  left: 70px;
+  z-index: 999;
+  border: none;
+  cursor: pointer;
+  scale: 1.5;
+}
+.pause {
+  display: none;
+}
+.play {
+  display: block;
+}
