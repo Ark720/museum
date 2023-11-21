@@ -210,7 +210,7 @@ require(['Arrayremove','tween','loadShaders'], function() {
                             rAF = requestAnimationFrame(animate2);
                         }
                         if (sMusic.src) {
-                            sMusic.play();
+                            // sMusic.play();
                         }
                     });
                     $("#enter").click(function () {
@@ -220,22 +220,22 @@ require(['Arrayremove','tween','loadShaders'], function() {
                         sIframeContent.toggle();
                         document.getElementById("iframelink").src = "http://";
                         if (sMusic.src) {
-                            sMusic.play();
+                            // sMusic.play();
                         }
                     });
                     if (sMusic.src) {
-                        sMusic.play();
+                        // sMusic.play();
                     }
 
                     if (mobileDevice) {
                         $("html").one("touchstart", function () {
                             if (sMusic.src) {
-                                sMusic.play();
+                                // sMusic.play();
                             }
                         });
                         $("body").one("touchstart", function () {
                             if (sMusic.src) {
-                                sMusic.play();
+                                // sMusic.play();
                             }
                         });
                     }
